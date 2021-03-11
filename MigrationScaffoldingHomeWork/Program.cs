@@ -6,7 +6,7 @@ namespace MigrationScaffoldingHomeWork
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }

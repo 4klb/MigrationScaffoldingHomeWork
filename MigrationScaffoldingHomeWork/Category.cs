@@ -12,7 +12,7 @@ namespace MigrationScaffoldingHomeWork
             Articles = new HashSet<Article>();
         }
 
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
         public string Name { get; set; }
 
         public virtual ICollection<Article> Articles { get; set; }

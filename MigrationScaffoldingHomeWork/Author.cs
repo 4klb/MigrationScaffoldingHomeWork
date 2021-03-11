@@ -7,9 +7,9 @@ namespace MigrationScaffoldingHomeWork
 {
     public partial class Author
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
         public string FullName { get; set; }
-        public Guid? ArticleId { get; set; } = Guid.NewGuid();
+        public Guid? ArticleId { get; set; } 
         public string Status { get; set; }
         public virtual Article Article { get; set; }
     }

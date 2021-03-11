@@ -12,10 +12,10 @@ namespace MigrationScaffoldingHomeWork
             Authors = new HashSet<Author>();
         }
 
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
         public string Text { get; set; }
         public DateTime PublicationDate { get; set; }
-        public Guid? CategoryId { get; set; } = Guid.NewGuid();
+        public Guid? CategoryId { get; set; } 
 
         public virtual Category Category { get; set; }
         public virtual ICollection<Author> Authors { get; set; }
